@@ -2,10 +2,11 @@ import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 
 const API_KEY = import.meta.env.VITE_GOOGLE_AUTH_API_KEY;
+console.log("key", API_KEY);
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: API_KEY,
+  apiKey: API_KEY || "aljaldsjop3lkl31-42elkadfl",
   authDomain: "getmetherapy-966a6.firebaseapp.com",
   projectId: "getmetherapy-966a6",
   storageBucket: "getmetherapy-966a6.appspot.com",
