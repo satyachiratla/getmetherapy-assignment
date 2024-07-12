@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import Burger1Svg from "../assets/svgs/burger-1.svg";
+import Burger1Svg from "../assets/images/image 9.png";
 import SuccessSvg from "../assets/svgs/success.svg";
 import { signOut } from "firebase/auth";
 import { auth } from "../../firebase/firebaseConfig";
