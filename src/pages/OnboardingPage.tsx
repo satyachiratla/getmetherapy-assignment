@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Burger1Svg from "../assets/svgs/burger-1.svg";
-import Burger2Svg from "../assets/svgs/burger-2.svg";
+import Burger1Svg from "../assets/images/image 39.png";
+import Burger2Svg from "../assets/images/image 9.png";
 import OnboardingCard from "../components/OnboardingCard";
 
 export default function OnboardingPage() {

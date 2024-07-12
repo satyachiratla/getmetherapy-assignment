@@ -67,7 +67,7 @@ export default function TrackingPage() {
   };
 
   return (
-    <div className="shadow-md min-h-screen h-full p-8 space-y-10 pt-10">
+    <div className="md:shadow-md min-h-screen h-full p-8 space-y-10 pt-10">
       <div className="relative">
         {userData.profilePic ? (
           <img

@@ -63,7 +63,7 @@ export default function RegisterPage() {
   };
 
   return (
-    <div className="shadow-md min-h-screen h-full p-8 space-y-8 pt-20">
+    <div className="md:shadow-md min-h-screen h-full p-8 space-y-8 pt-20">
       <div className="space-y-4">
         <h2 className="text-3xl">
           Create your new <br></br> account

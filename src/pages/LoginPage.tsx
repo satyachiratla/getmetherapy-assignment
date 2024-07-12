@@ -95,7 +95,7 @@ export default function LoginPage() {
   return (
     <>
       {!loginSuccess ? (
-        <div className="shadow-md min-h-screen h-full p-8 space-y-8 pt-20">
+        <div className="md:shadow-md min-h-screen h-full p-8 space-y-8 pt-20">
           <div className="space-y-4">
             <h2 className="text-3xl">
               Login to your <br></br> account.
